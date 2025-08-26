@@ -3,3 +3,7 @@ AWS Day 1 Notes
 - IAM user created
 - AWS CLI configured
 - Services overview (EC2, S3, Lambda, IAM)
+AWS Day 2 Notes:
+- EC2 instance launched (AMI: Amazon Linux 2, t2.micro)
+- SSH connection working
+- S3 bucket created and file uploaded
