@@ -7,3 +7,8 @@ AWS Day 2 Notes:
 - EC2 instance launched (AMI: Amazon Linux 2, t2.micro)
 - SSH connection working
 - S3 bucket created and file uploaded
+AWS Day 3 Notes:
+- S3 upload/sync/download tested
+- IAM Role created and attached to EC2
+- EC2 can access S3 without credentials
+- SSH connection verified
