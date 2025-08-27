@@ -1,14 +1,13 @@
-Week1:
-AWS Day 1 Notes
+AWS Setup & Basics
 - IAM user created
 - AWS CLI configured
 - Services overview (EC2, S3, Lambda, IAM)
-AWS Day 2 Notes:
 - EC2 instance launched (AMI: Amazon Linux 2, t2.micro)
 - SSH connection working
-- S3 bucket created and file uploaded
-AWS Day 3 Notes:
-- S3 upload/sync/download tested
+
+S3 Storage (CLI, EC2 + Role, Python SDK)
+- S3 bucket created
+- S3 upload/sync/download tested (CLI)
 - IAM Role created and attached to EC2
 - EC2 can access S3 without credentials
-- SSH connection verified
+- Python code to upload/download files from S3 using Boto3 SDK
