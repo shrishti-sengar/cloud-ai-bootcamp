@@ -1,21 +1,21 @@
-AWS Setup & Basics
+###AWS Setup & Basics
 - IAM user created
 - AWS CLI configured
 - Services overview (EC2, S3, Lambda, IAM)
 - EC2 instance launched (AMI: Amazon Linux 2, t2.micro)
 - SSH connection working
 
-S3 Storage (CLI, EC2 + Role, Python SDK)
+###S3 Storage (CLI, EC2 + Role, Python SDK)
 - S3 bucket created
 - S3 upload/sync/download tested (CLI)
 - IAM Role created and attached to EC2
 - EC2 can access S3 without credentials
 - Python code to upload/download files from S3 using Boto3 SDK
 
-Lambda + API Gateway
+###Lambda + API Gateway
 - Create basic Lambda function to print "hello" and configure S3 as trigger.
 - Any upload/download on s3 bucket will trigger Lambda function, see CloudWatch Logs
-- Create basic Lambda so it can receive custom JSON data from API Gateway.
+- Created basic Lambda so it can receive custom JSON data from API Gateway.
 """
     def lambda_handler(event, context):
       print("Event received:", event)
@@ -38,3 +38,4 @@ Lambda + API Gateway
 """
 - Create and deploy REST API at API Gateway, create resource, method,  and integrate lambda function. (GET/POST)
 - url will trigger lambda function, to view the event data use postman to send body.
+- CloudWatch logs capture everything you print().
