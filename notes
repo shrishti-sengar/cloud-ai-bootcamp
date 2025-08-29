@@ -39,3 +39,8 @@
 - Create and deploy REST API at API Gateway, create resource, method,  and integrate lambda function. (GET/POST)
 - url will trigger lambda function, to view the event data use postman to send body.
 - CloudWatch logs capture everything you print().
+
+
+### AI Integration
+- Installed OpenAI Python SDK and Stored API key(OpenAI API) in environment variables
+- Wrote simple Python script to call OpenAI API, Built a simple chatbot in Python and added logging.
